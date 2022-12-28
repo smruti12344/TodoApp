@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* body */
+body{
+    height: 100vh;
+    width: 100vw;
+    background: gray;
+    position: fixed;
+}
+/* container */
+#container{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
+    padding: 20px;
+    background-color: aliceblue;
+    /* background: linear-gradient(to right, #E2E2E2, #C9D6FF); */
+}
+/* placeholder */
+ ::placeholder{
+  color: black;
+  font-size: 14px;
+  opacity: 0.5;
+}
+/* text */
+.text{
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+/* page-heading */
+#page-heading{
+    height: 6%;
+    width: 100%;
+    border-bottom:1px solid lightgrey ;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: lightslategray;
+}
+/* description */
+#description{
+padding: 1px;
+border-bottom: 1px solid lightslategray;
+text-transform: uppercase;
+}
+/* input tag */
+#description input{
+height: 5%;
+width: 100%;
+border: transparent;
+outline: transparent;
+background: none;
+font-size: 15px;
+}
+/* hover part */
+#description:hover{
+    opacity: 0.8;
+    background: #bdc3c7;
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+}
+/* category and date area */
+#categoriey-date-area{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3%;
+    border-bottom: 1px solid lightslategray;
+}
+/* category-area */
+#category-area{
+    height: auto;
+    width: 50%;
+    border-right: 1px solid lightslategrey;
+    padding: 1%;
+}
+/* for hover */
+#category-area:hover{
+    opacity: 0.8;
+    background: gray;
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+}
+/* select-category */
+#select-category{
+    height: 50%;
+    width: 95%;
+    outline:none;
+    margin-left: -3px;
+    background: transparent;
+    border: transparent;
+}
+/* date-area */
+#date-area{
+    height: auto;
+    width: 50%;
+    padding: 1%;
+}
+/* for hover */
+#date-area:hover{
+    opacity: 0.8;
+    background: lightslategray;
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
+}
+#date-area input{
+    height: 50%;
+    width: 95%;
+    margin-left: -2px;
+    outline: none;
+    background: transparent;
+    border: transparent;
+    font-size: 15px;
+   
+}
+/* button area */
+#btn-area{
+    height: 6%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-evenly;
+}
+/* add-task-btn */
+#add-task{
+    height: 100%;
+    width: 35%;
+    background-color:black;
+    color: whitesmoke;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* delete-btn */
+#dlt-task{
+    height: 100%;
+    width: 35%;
+    background-color:red;
+    color: whitesmoke;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.print-list{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    
+    
+}
+ .list-of-todo{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(177, 172, 172);
+    background-color: #d2d7e5;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+.list-of-todo:hover{
+    background-color: #979aa1;
+    border-radius: 6px;
+}
+
+
+.checkbox{
+    height: 20px;
+    width: 2%;
+    align-items: center;
+    margin-left: 4%;
+    font-size: 20px;
+}
+
+.des-day{
+    height: 60px;
+    width: 60%;
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.des-day div{
+    display: flex;
+}
+.des-day div p{
+    margin-left: 8px;
+    margin-top: -2px;
+     font-size: 13px;
+}
+
+
+.category{
+    height: 40px;
+    width: 15%;
+    text-align: center;
+    margin-left: 3%;
+    background: cadetblue;
+    border-radius: 5px;
+}
+
+.category p{
+    margin-top: 5px;
+} 
+ 
+
+
+
+
+
